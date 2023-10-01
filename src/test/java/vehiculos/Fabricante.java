@@ -1,4 +1,4 @@
-package vehiculo;
+package vehiculos;
 
 import java.util.ArrayList;
 
@@ -20,7 +20,7 @@ public class Fabricante {
 	//Metodos de instancia
 	public void fabricar() {this.cantidadFabricados++; this.pais.setCantidadVendidos(this.pais.getCantidadVendidos()+1);}
 	//Metodos de clase
-	public Fabricante fabricanteMayorVentas() {
+	public static Fabricante fabricaMayorVentas() {
 		Fabricante mayorFabricante = listaFabricantes.get(0);
 		for (Fabricante fabri : listaFabricantes) {
 			if (fabri.getCantidadFabricados()>mayorFabricante.getCantidadFabricados()) {

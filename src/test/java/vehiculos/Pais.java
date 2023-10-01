@@ -1,4 +1,4 @@
-package vehiculo;
+package vehiculos;
 
 import java.util.ArrayList;
 
@@ -16,7 +16,7 @@ public class Pais {
 	
 	//Metodos de instancia
 	//Metodos de clase
-	public Pais paisMasVendedor() {
+	public static Pais paisMasVendedor() {
 		Pais mayorPais = listaPaises.get(0);
 		for (Pais pais : listaPaises) {
 			if (pais.getCantidadVendidos()>mayorPais.getCantidadVendidos()) {
