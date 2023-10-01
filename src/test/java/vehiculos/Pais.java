@@ -12,6 +12,7 @@ public class Pais {
 	//Constructores
 	public Pais(String nombre) {
 		this.nombre=nombre;
+		Pais.listaPaises.add(this);
 	}
 	
 	//Metodos de instancia

@@ -30,6 +30,7 @@ public class Fabricante {
 		return mayorFabricante;
 	}
 	
+	public static ArrayList<Fabricante> getListaFabricantes() {return listaFabricantes;}
 	
 	//Metodos set y get
 	public void setNombre(String nombre) {this.nombre=nombre;}
